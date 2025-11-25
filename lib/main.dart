@@ -36,6 +36,13 @@ class _MyAppState extends State<MyApp> {
         body: Center(
           child: Text("This is a test", style: TextStyle(fontSize: 42)),
         ),
+        floatingActionButton: FloatingActionButton(
+          child: Icon(Icons.add),
+          onPressed: null,
+        ),
+
+        
+        bottomNavigationBar: BottomAppBar(),
       ),
     );
   }
